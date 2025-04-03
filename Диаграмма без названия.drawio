@@ -1,0 +1,90 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Страница — 1" id="37fzYt0-rooj1aSEFpzP">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h2pESWAinA3zE0BkuGew-1" value="Player" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="300" width="170" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-56" value="string _answer" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="h2pESWAinA3zE0BkuGew-1" vertex="1">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-2" value="string _name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="h2pESWAinA3zE0BkuGew-1" vertex="1">
+          <mxGeometry y="60" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-3" value="string _RightAnswerCounter" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="h2pESWAinA3zE0BkuGew-1" vertex="1">
+          <mxGeometry y="90" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-4" value="int _moveOrder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="h2pESWAinA3zE0BkuGew-1" vertex="1">
+          <mxGeometry y="120" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-5" value="Country" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="440" y="300" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-6" value="string _name" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="h2pESWAinA3zE0BkuGew-5" vertex="1">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-8" value="bool _isUsed" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="h2pESWAinA3zE0BkuGew-5" vertex="1">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-9" value="Game" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="510" width="210" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-10" value="int _moveOrder" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="h2pESWAinA3zE0BkuGew-9" vertex="1">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-12" value="Country[] _CountryList" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="h2pESWAinA3zE0BkuGew-9" vertex="1">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-47" value="Player _winner" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="h2pESWAinA3zE0BkuGew-9" vertex="1">
+          <mxGeometry y="90" width="210" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RRctbwS-JazVTS59eVZO-2" value="+ SetStringAsCountryTitle(void): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h2pESWAinA3zE0BkuGew-9">
+          <mxGeometry y="116" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-25" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0.486;entryY=1.167;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.687;exitY=0.019;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="h2pESWAinA3zE0BkuGew-9" target="h2pESWAinA3zE0BkuGew-8" edge="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="390" y="500" as="sourcePoint" />
+            <mxPoint x="540" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="389" y="470" />
+              <mxPoint x="508" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-28" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;entryX=0.512;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="h2pESWAinA3zE0BkuGew-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="347" y="510" as="sourcePoint" />
+            <mxPoint x="227" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-36" value="DataCollector" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="512" width="190" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-37" value="+ SaveCountries(Town[]): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="h2pESWAinA3zE0BkuGew-36" vertex="1">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="h2pESWAinA3zE0BkuGew-36" vertex="1">
+          <mxGeometry y="52" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-39" value="+ GetCountriesList(void) string[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="h2pESWAinA3zE0BkuGew-36" vertex="1">
+          <mxGeometry y="60" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RRctbwS-JazVTS59eVZO-1" value="+CountriesTitleList(void): string[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="h2pESWAinA3zE0BkuGew-36">
+          <mxGeometry y="86" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h2pESWAinA3zE0BkuGew-48" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="h2pESWAinA3zE0BkuGew-10" edge="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="399" y="522" as="sourcePoint" />
+            <mxPoint x="550" y="555" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="555" />
+              <mxPoint x="490" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
