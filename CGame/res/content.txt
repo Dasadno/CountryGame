@@ -1,0 +1,247 @@
+djibouti
+eritrea
+ethiopia
+namibia
+south africa
+cameroon
+ghana
+world
+united arab emirates
+bahrain
+algeria
+egypt
+israel
+iraq
+jordan
+comoros
+kuwait
+lebanon
+libya
+morocco
+mauritania
+oman
+palestinian authority
+qatar
+saudi arabia
+sudan
+somalia
+south sudan
+syria
+chad
+tunisia
+yemen
+chile
+india
+tanzania
+spain
+azerbaijan
+russia
+belarus
+zambia
+bulgaria
+mali
+bangladesh
+china
+france
+bosnia & herzegovina
+andorra
+italy
+philippines
+uganda
+united states
+iran
+czechia
+united kingdom
+denmark
+greenland
+kenya
+austria
+belgium
+switzerland
+germany
+liechtenstein
+luxembourg
+niger
+maldives
+senegal
+bhutan
+togo
+cyprus
+greece
+europe
+antigua & barbuda
+anguilla
+american samoa
+australia
+barbados
+burundi
+bermuda
+bahamas
+botswana
+belize
+canada
+cocos (keeling) islands
+cook islands
+christmas island
+dominica
+finland
+fiji
+falkland islands
+micronesia
+grenada
+guernsey
+gibraltar
+gambia
+guam
+guyana
+hong kong sar
+ireland
+isle of man
+british indian ocean territory
+jersey
+jamaica
+kiribati
+st. kitts & nevis
+cayman islands
+st. lucia
+liberia
+lesotho
+madagascar
+marshall islands
+macao sar
+northern mariana islands
+montserrat
+malta
+mauritius
+malawi
+malaysia
+norfolk island
+nigeria
+netherlands
+nauru
+niue
+new zealand
+papua new guinea
+pakistan
+pitcairn islands
+puerto rico
+palau
+rwanda
+solomon islands
+seychelles
+sweden
+singapore
+st helena, ascension, tristan da cunha
+slovenia
+sierra leone
+sint maarten
+eswatini
+turks & caicos islands
+tokelau
+tonga
+trinidad & tobago
+tuvalu
+u.s. outlying islands
+st. vincent & grenadines
+british virgin islands
+u.s. virgin islands
+vanuatu
+samoa
+zimbabwe
+latin america
+argentina
+bolivia
+brazil
+colombia
+costa rica
+cuba
+dominican republic
+ecuador
+equatorial guinea
+guatemala
+honduras
+mexico
+nicaragua
+panama
+peru
+paraguay
+el salvador
+uruguay
+venezuela
+estonia
+afghanistan
+burkina faso
+guinea
+guinea-bissau
+faroe islands
+benin
+st. barthélemy
+congo (drc)
+central african republic
+congo
+côte d’ivoire
+gabon
+french guiana
+guadeloupe
+haiti
+monaco
+st. martin
+martinique
+new caledonia
+french polynesia
+st. pierre & miquelon
+réunion
+wallis & futuna
+mayotte
+croatia
+hungary
+armenia
+indonesia
+iceland
+san marino
+vatican city
+japan
+georgia
+cabo verde
+kazakhstan
+cambodia
+north korea
+korea
+kyrgyzstan
+angola
+laos
+lithuania
+latvia
+mozambique
+north macedonia
+mongolia
+brunei
+myanmar
+norway
+svalbard & jan mayen
+nepal
+aruba
+bonaire, sint eustatius and saba
+curaçao
+suriname
+poland
+portugal
+são tomé & príncipe
+timor-leste
+moldova
+romania
+ukraine
+sri lanka
+slovakia
+albania
+kosovo
+montenegro
+serbia
+åland islands
+tajikistan
+thailand
+turkmenistan
+turkey
+uzbekistan
+vietnam
+taiwan
