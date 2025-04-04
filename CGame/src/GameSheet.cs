@@ -29,8 +29,9 @@ namespace CountryGame
             Console.WriteLine
                 ($"Current word: {game.LastWord}\n" +
                 $"Current letter: {game.CurrentLetter}\n" +
-                $"Move of the game: {game.MoveOrder}\n" +
-                $"Player must move: {game.PlayersList[game.MoveOrder].Name}\n\n\n" +
+                $"Move of the game: {game.MoveOrder+1}\n" +
+                $"Player that move: {game.PlayersList[game.MoveOrder].Name}\n" +
+                $"lives: {game.PlayersList[game.MoveOrder].Lives}\n\n\n" +
                 $"1. All players sheet\n" + 
                 $"2. Finish the game\n" +
                 $"Enter: ");
@@ -45,7 +46,7 @@ namespace CountryGame
             }
             else if (game.PlayersList[game.MoveOrder].Answer == "2")
             {
-
+                GameSheetMethod(game);
             }
             else if (!IsAnswerRight(game.PlayersList[game.MoveOrder].Answer, game))
             {
@@ -62,10 +63,11 @@ namespace CountryGame
                 game.PlayersList[game.MoveOrder].Answer = null;
                 Thread.Sleep(1500);
                 Console.Clear();
-                if (game.MoveOrder == game.PlayersList.Count)
+                if (game.MoveOrder == game.PlayersList.Count+1)
                 {
                     game.MoveOrder = 1;
                 }
+                GameSheetMethod(game);
             }
 
 
@@ -80,7 +82,13 @@ namespace CountryGame
 
                 if (country.Name.ToLower() == lowerAnsw && lowerAnsw[0] == game.CurrentLetter)
                 {
-                    return true;
+                    if (country.IsUsed == false)
+                    {
+                        country.IsUsed = true;
+                        game.LastWord = country.Name;
+                        game.CurrentLetter = country.Name[^1];
+                        return true;
+                    }
                 }
             }
             return false;

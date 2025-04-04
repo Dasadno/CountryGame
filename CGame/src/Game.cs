@@ -23,6 +23,10 @@ namespace CountryGame
                 _currentLetter = LastWord[LastWord.Length - 1];
                 return _currentLetter;
             }
+            set
+            {
+                _currentLetter = value;
+            }
         }
         public List<Country> CountryList
         { 
